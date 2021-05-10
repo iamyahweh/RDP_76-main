@@ -72,7 +72,7 @@ jobs:
 
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
 
-    - name: Connect Ke RDP Kamu CPU 2 Core - 7GB Ram - 255 SSD.
+    - name: Connect Ke RDP Kamu CPU 2 Core - 7GB Ram - 500 SSD.
 
       run: cmd /c start.bat
 
